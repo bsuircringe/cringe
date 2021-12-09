@@ -4,6 +4,7 @@
 }
 .main_font{
     display: flex;
+    flex-direction: column;
     color: white;
     font-size: 150%;
     background-color: lightskyblue;
