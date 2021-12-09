@@ -10,6 +10,12 @@
   function kir() {
     document.location.href = 'kirill.html'
   };
+  function nik2() {
+    document.location.href = 'nik2.html'
+  };
+  function ser() {
+    document.location.href = 'sergay.html'
+  };
   function gallery() {
     document.location.href = 'gallery.html'
   };
