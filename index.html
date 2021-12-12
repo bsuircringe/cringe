@@ -7,50 +7,50 @@
         <link rel="icon" href="images/favicon.ico">
         <script src="qwerty.js"></script>
     </head>
-
-    <body  class=main_font>
-        <div class="side"></div>
-        <div class="center">
+    <body class="body_">
         <header class=header>
-            <table class="header_grid" align="left">
-                <tr>
-                    <td class=header_cup onClick = "source()">ГЛАВНАЯ</td>
-                    <td class=header_cup onClick = "gallery()">ГАЛЕРЕЯ</td>
-                    <td class=header_cup onClick = "grafic()">ГРАФИК ДЕЖУРСТВА</td>
-                </tr>
-            </table>
+            <div class="back_to_main">
+                <img src="images/arrow_back.png" class="arrow" onClick="index()">
+            </div>
+            <div style="font-size: 23pt;">
+            МЕСТНЫЕ ТАРАКАНЫ
+        </div>
         </header>
-        <h1 class=text align = center >ДОБРО ПОЖАЛОВАТЬ В 811</h1>
-        <div class="main">
-            <div class="person" onclick="kir()">
-                <strong>КИРИЛЛ ЛИФАНОВ</strong>
-                <img class="img" src="images/kirill.jpg">
+            <div style="display: flex; flex-direction: column;"></div>
+            <p align = center>ПРОЖИВАЮЩИЕ 2021/2022</p>
+            <div style="display: flex; flex-direction: column;">
+                <div class="main_string">
+                    <div class="person" onclick="kir()">
+                        <strong>КИРИЛЛ ЛИФАНОВ</strong>
+                        <img class="img" src="images/kirill.jpg">
+                    </div>
+                    <div class="person" onclick="kir()">
+                        <strong>НИКИТА РУБЛЕВСКИЙ</strong>
+                        <img class="img" src="images/nikita.jpg">
+                    </div>
+                    <div class="person" onclick="kir()">
+                        <strong>АРТЕМ АНОШКО</strong>
+                        <img class="img" src="images/artem.jpg">
+                    </div>
+                </div>
+                <div class="main_string">
+                    <div class="person" onclick="kir()">
+                        <strong>ЕГОР КУЧЕРЕНКО</strong>
+                        <img class="img" src="images/egor.jpg">
+                    </div>
+                    <div class="person" onclick="kir()">
+                        <strong>НИКИТА ДЕРШЕНЬ</strong>
+                        <img class="img" src="images/nikita2.png">
+                    </div>
+                    <div class="person" onclick="kir()">
+                        <strong>СЕРГЕЙ ТЕРЕШКЕВИЧ</strong>
+                        <img class="img" src="images/sergay.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="person" onclick="kir()">
-                <strong>НИКИТА РУБЛЕВСКИЙ</strong>
-                <img class="img" src="images/nikita.jpg">
-            </div>
-            <div class="person" onclick="kir()">
-                <strong>АРТЕМ АНОШКО</strong>
-                <img class="img" src="images/kirill.jpg">
-            </div>
+            <footer class="footer">
+                Беларусь, Минск, пр-т Дзержинского 95
+            </footer>
         </div>
-        <div class="main">
-            <div class="person" onclick="kir()">
-                <strong>ЕГОР КУЧЕРЕНКО</strong>
-                <img class="img" src="images/kirill.jpg">
-            </div>
-            <div class="person" onclick="kir()">
-                <strong>НИКИТА ДЕРШЕНЬ</strong>
-                <img class="img" src="images/kirill.jpg">
-            </div>
-            <div class="person" onclick="kir()">
-                <strong>СЕРГЕЙ ТЕРЕШКЕВИЧ</strong>
-                <img class="img" src="images/sergay.jpg">
-            </div>
-        </div>
-    </div>
-    <div class="side"></div>
-    <footer>qwerty</footer>
     </body>
 </html>
